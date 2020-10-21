@@ -1,7 +1,7 @@
 #mobileResumeHeader{
     width: fit-content;
     margin: 6vh auto 1vh auto;
-    font-size: 36px;
+    font-size: 30px;
 }
 
 #mobileSkills, #mobileEducation, #mobileWork{
@@ -11,7 +11,7 @@
 
 .mobileResHeader{
     margin: 2vh auto 0 auto;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .mobileResH5{
@@ -43,20 +43,20 @@
 }
 
 #mobileDisplayFillName{
-    font-size: 28px;
+    font-size: 24px;
     font-family: "Overpass200";
     margin-bottom: 2vh;
 }
 
 #mobileDisplayFillDate,
 #mobileDisplayFillTitle{
-    font-size: 20px;
+    font-size: 16px;
     font-family: "Overpass200";
     margin-bottom: 2vh;
 }
 
 #mobileDisplayFillArr{
-    font-size: 16px;
+    font-size: 12px;
     margin-top: 2vh;
 }
 

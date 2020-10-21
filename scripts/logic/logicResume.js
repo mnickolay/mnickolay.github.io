@@ -1,4 +1,3 @@
-//main desktop
 function resumeLogic(){
     setResumePage()
     setMobileResumeVar()
@@ -99,8 +98,12 @@ function objAddEventListeners(obj){
 function mobileObjSettingDisplayFill(obj){
     mobileCurrentResumeDisplay = obj
     mobileDisplayFillName.innerText = obj.mobileEle.innerText
-    if(obj.date) mobileDisplayFillDate.innerText = obj.date
-    if(obj.title) mobileDisplayFillTitle.innerText = obj.title
+    obj.date
+        ? mobileDisplayFillDate.innerText = obj.date
+        : mobileDisplayFillDate.innerText = ""
+    obj.title
+        ? mobileDisplayFillTitle.innerText = obj.title 
+        : mobileDisplayFillTitle.innerText = ""
     mobileDisplayFillArr.innerHTML = mobileObjGetFillArrString(obj.arr)
 }
 

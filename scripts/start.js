@@ -4,8 +4,8 @@ appStart();
 window.onresize = appStart;
 
 function appStart(){
-        if(window.innerWidth >= 900 && width < 900) greaterThan900()
-        else if(window.innerWidth < 900 && width >= 900) lessThan900()
+    if(window.innerWidth >= 900 && width < 900) greaterThan900()
+    else if(window.innerWidth < 900 && width >= 900) lessThan900()
 }
 
 function greaterThan900(){

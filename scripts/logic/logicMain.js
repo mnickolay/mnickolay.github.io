@@ -5,6 +5,7 @@ function desktopStart(){
     page = "home";
     navCircle1.classList.add("navActive");
     mobileNavCircle1.classList.add("mobileNavActive");
+    document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
     homeLogic();
 }
 
