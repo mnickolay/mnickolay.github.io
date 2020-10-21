@@ -1,0 +1,52 @@
+html, body{
+    min-height: 100%;
+    max-height: fit-content;
+    padding: 0;
+    margin: 0;
+    font-family: 'Overpass100';
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+.websiteBody{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.bodyLeft{
+    float: left;
+    width: 50%;
+    min-height: 2000px;
+    transition: all 1s ease;
+    z-index: -5;
+}
+
+.bodyRight{
+    float: right;
+    width: 50%;
+    min-height: 2000px;
+    transition: all 0.2s ease;
+    z-index: -5;
+}
+
+#rightColor{
+    position: absolute;
+    bottom: 0;
+    min-height: max-content;
+    height: 100vh;
+    transform: skew(-20deg);
+    width: 40vw;
+    right: -24vw;
+    background-color: #0534cf;
+    z-index: -1;
+    transition: transform 1s ease,
+                background-color 1s ease;
+}
+
+.rightHTML{
+    animation: scrollDown 1s ease;
+}

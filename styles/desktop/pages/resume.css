@@ -1,0 +1,149 @@
+/* right */
+
+.resumeDiv{
+    margin-left: 1vw;
+    padding-top: 3vw;
+    font-family: 'Overpass200';
+}
+
+#resumeHeader{
+    font-size: 36px;
+    padding-bottom: 0.5em;
+    animation: headSlideLeft 1s ease,
+                fadeIn 1s ease;;
+}
+
+.resHeader{
+    margin-bottom: 0;
+    font-size: 24px;
+    margin-left: 1vw;
+    animation: h4slideLeft 1s ease;
+}
+
+.resumeBar{
+    position: absolute;
+    top: 3vw;
+    left: 50vw;
+    height: 54px;
+    width: 0.5vw;
+    background-color: #775a00;
+    animation: barSlide .8s ease;
+}
+
+.resH5{
+    width: max-content;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 1vw 0vw;
+    transition: all 0.25s ease;
+    animation: h5slideLeft 1s ease;
+}
+
+.resActive{
+    color: #D1A212;
+    padding: 0 15px;
+}
+
+.resPushRight{
+    margin: 1vw 2.5vw;
+}
+
+/* left */
+
+.resumeBox{
+    position: absolute;
+    left: 10vw;
+    top: 12vw;
+    width: 30vw;
+    height: 60vh;
+    max-width: 600px;
+    max-height: 600px;
+    padding: 5px;
+    font-family: 'Overpass200';
+    box-shadow: 0 0 0 10px #f0f0f0,
+                0 0 0 11px black;
+    background-color: #d1a212;
+    animation: borderDisplay 2s ease,
+                fadeIn 1s linear;
+}
+
+table{
+    margin: 0.5vw;
+}
+
+th{
+    width: 30vw;
+    font-size: 24px;
+}
+
+thead{
+    border-bottom: 1px solid black;
+}
+
+#thTitle{
+    font-size: 14px;
+}
+
+tbody{
+    font-size: 0.94vw;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #b18500;
+}
+
+td{
+    width: 100em;
+    padding-bottom: 7px;
+}
+
+#tdRight{
+    padding-left: 10px;
+}
+
+#thDate{
+    text-align: right;
+}
+
+@keyframes barSlide{
+    0% {height: 0vw;}
+}
+
+@keyframes h5slideLeft{
+    0% {margin-left: 3vw; opacity: 0; letter-spacing: 1px;}
+    100% {margin-left: 0vw; opacity: 1;}
+}
+
+@keyframes h4slideLeft{
+    0% {margin-left: 3vw; opacity: 0; letter-spacing: 2px;}
+    100% {margin-left: 1vw; opacity: 1;}
+}
+
+@keyframes headSlideLeft{
+    0% {margin-left: 2vw; letter-spacing: 6px;}
+    100% {}   
+}
+
+@keyframes fadeIn{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes borderDisplay{
+    0% {box-shadow: 0 0 0 0px #f0f0f0,
+                    0 0 0 0px black,
+                    0 0 0 0px #d1a212}
+
+    25% {box-shadow: 0 0 0 0px #f0f0f0,
+                    0 0 0 0px black,
+                    0 0 0 20px #d1a212}
+                    
+    50% {box-shadow: 0 0 0 0px #f0f0f0,
+                    0 0 0 20px black,
+                    0 0 0 20px #d1a212}
+
+    100% {box-shadow:
+                    0 0 0 10px #f0f0f0,
+                    0 0 0 11px black,
+                    0 0 0 10px #d1a212}
+}

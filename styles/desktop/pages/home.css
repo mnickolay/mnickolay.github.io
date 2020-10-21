@@ -1,0 +1,123 @@
+#homeImage{
+    position: absolute;
+    bottom: -3vw;
+    left: 2vw;
+    width: 45vw;
+    height: auto;
+    animation: fadeIn 0.7s ease;
+    z-index: -3;
+}
+
+.nameDisplay{
+    position: absolute;
+    bottom: 22vw;
+    line-height: 0.8;
+    font-size: 8vw;
+    animation: slideUpName ease 1s;
+    width: fit-content;
+    font-weight: 200;
+}
+
+.infoDisplay{
+    position: absolute;
+    bottom: 14vw;
+    font-size: 2.1vw;
+    padding-left: 0;
+    animation: slideUpInfo ease 1s;
+    margin-left: 0.75vw;
+}
+
+.designBar{
+    position: absolute;
+    left: 78.5vw;
+    bottom: 21.55vw;
+    height: 5.75vw;
+    width: 5.75vw;
+    transform: skew(-20deg);
+    opacity: 0;
+}
+
+#homeDesignBar1{
+    background-color: #9aace7;
+    animation: bar1 1.4s ease;
+}
+
+#homeDesignBar2{
+    background-color: #6e89e2;
+    animation: bar2 1.35s ease;
+}
+
+#homeDesignBar3{
+    background-color: #496ee8;
+    animation: bar3 1.3s ease;
+}
+
+#homeDesignBar4{
+    background-color: #0534cf;
+    animation: bar4 1.25s ease;
+}
+
+#homeDesignBar5{
+    background-color: #212529;
+    animation: bar5 1.2s ease;
+}
+
+@keyframes bar5{
+    0% {left: 78.5vw; border-radius: 0; opacity: 0;}
+    35% {left: 78.5vw; opacity: 1;}
+    45% {left: 45vw; border-radius: 10px 0 0 10px;}
+    80% {left: 78.5vw;}
+    90% {left: 78.5vw; width: 5.75vw;}
+    100% {width: 0vw; opacity: 1;}
+}
+
+@keyframes bar4{
+    0% {opacity: 0;}
+    44% {opacity: 0;}
+    45% {left: 45vw; opacity: 1; border-radius: 30px 0 0 30px;}
+    79% {opacity: 1;}
+    80% {left: 78.5vw; opacity: 0; width: 5.75vw;}
+    95% {width: 0vw;}
+}
+
+@keyframes bar3{
+    0% {opacity: 0;}
+    44% {opacity: 0;}
+    45% {left: 45vw; opacity: 1; border-radius: 30px 0 0 30px;}
+    79% {opacity: 1;}
+    80% {left: 78.5vw; opacity: 0; width: 5.75vw;}
+    95% {width: 0vw;}
+}
+
+@keyframes bar2{
+    0% {opacity: 0;}
+    44% {opacity: 0;}
+    45% {left: 45vw; opacity: 1; border-radius: 30px 0 0 30px;}
+    79% {opacity: 1;}
+    80% {left: 78.5vw; opacity: 0; width: 5.75vw;}
+    95% {width: 0vw;}
+}
+
+@keyframes bar1{
+    0% {opacity: 0;}
+    44% {opacity: 0;}
+    45% {left: 45vw; opacity: 1; border-radius: 30px 0 0 30px;}
+    79% {opacity: 1;}
+    80% {left: 78.5vw; opacity: 0; width: 5.75vw;}
+    95% {width: 0vw;}
+}
+
+@keyframes slideUpName{
+    0% {bottom: 24vw; opacity: 0;}
+    100% {bottom: 22vw; opacity: 1;}
+}
+
+@keyframes slideUpInfo{
+    0% {bottom: 15vw; opacity: 0;}
+    100% {bottom: 14vw; opacity: 1;}
+}
+
+@keyframes fadeIn{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}

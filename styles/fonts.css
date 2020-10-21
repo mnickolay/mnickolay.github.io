@@ -1,0 +1,14 @@
+@font-face{
+    font-family: 'Raleway';
+    src: url(../fonts/300Raleway-VariableFont_wght.ttf);
+}
+
+@font-face{
+    font-family: 'Overpass100';
+    src: url(../fonts/Overpass-Thin.ttf);
+}
+
+@font-face{
+    font-family: 'Overpass200';
+    src: url(../fonts/Overpass-ExtraLight.ttf);
+}

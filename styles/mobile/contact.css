@@ -1,0 +1,112 @@
+.mobileContactDiv{
+    margin: 5vw;
+    height: 89vh;
+    animation: fadeIn 1s ease;
+}
+
+#mobileContactTop{
+    width: 100%;
+    height: 50vh;
+}
+
+#mobileContactHead{
+    width: fit-content;
+    margin: 6vh auto 0 auto;
+    font-size: 6vh;
+}
+
+#mobileInputField{
+    margin: 10vh auto 0 auto;
+    width: fit-content;
+    text-align: center;
+    height: 45px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#mobileInputFieldDetail{
+    margin: 5vh auto 0 auto;
+    width: fit-content;
+    font-size: 18px;
+    text-align: center;
+}
+
+#mobileBlinkBar{
+    position: relative;
+    font-size: 40px;
+}
+
+.mobileTextHide{
+    position: absolute;
+    top: 33.5vh;
+    right: 10vw;
+    width: 80vw;
+    height: 4vh;
+    text-align: center;
+    background-color: #f0f0f0;
+    transition: all 1s ease;
+}
+
+.mobileActiveContact{
+    border: 1px solid black !important;
+    border-radius: 15px;
+}
+
+#mobileContactBottom{
+    margin: 4vh auto auto auto;
+    width: 100%;
+}
+
+#mobileContactSep1{
+    float: left;
+    width: 100%;
+}
+
+#mobileContactSep2{
+    margin-top: 2vh;
+    float: right;
+    width: 100%;
+}
+
+.mobileInnerDiv{
+    margin: auto;
+    padding: 2vh;
+    width: fit-content;
+    display: inline-block;
+    animation: fadeIn 1s ease;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.mobileContactImg{
+    position: relative;
+    width: 9vw;
+    vertical-align: baseline;
+    background-color: #f0f0f0;
+    border-radius: 50px;
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.mobileContactText{
+    display: inline-block;
+    font-size: 6vw;
+    vertical-align: middle;
+    padding-left: 2vw;
+}
+
+#mobileLinkedinDiv{
+    float: left;
+}
+
+#mobileGithubDiv{
+    float: right;
+    text-align: right;
+}
+
+#mobilePhoneDiv{
+    float: right;
+    text-align: right;
+}

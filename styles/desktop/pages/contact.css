@@ -1,0 +1,118 @@
+#inputField{
+    position: absolute;
+    top: 18.75vw;
+    left: 10vw;
+    width: fit-content;
+    height: 5vw;
+    font-size: 4vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#inputFieldDetail{
+    position: absolute;
+    top: 26vw;
+    left: 10vw;
+    font-size: 2vw;
+    color: #212529;
+}
+
+a{
+    color: #212529;
+}
+
+a:hover{
+    color: #212529;
+}
+
+.textHide{
+    position: absolute;
+    top: 26vw;
+    height: 3vw;
+    z-index: 5;
+}
+
+#textHide1{
+    left: 10vw;
+    width: 0vw;
+    background-color: #212529;
+    transition: left 1s ease,
+                width 1s ease;
+}
+
+#textHide2{
+    left: 10vw;
+    width: 42vw;
+    background-color: #f0f0f0;
+    transition: left 1s ease,
+                width 1s ease;
+}
+
+#blinkBar{
+    position: absolute;
+    top: 22.3vw;
+    left: 10vw;
+    width: 2.4vw;
+    height: 3px;
+    font-size: 6vw;
+    background-color: black;
+}
+
+.blinkerFade{
+    opacity: 0;
+}
+
+.contactDiv{
+    position: absolute;
+    left: 55vw;
+    top: 8vw;
+}
+
+.innerDiv{
+    padding: 1vw;
+    margin-bottom: 1vw;
+    width: fit-content;
+    border: 1px solid transparent;
+    transition: all 0.5s ease;
+}
+
+.activeContact{
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.contactImg{
+    position: relative;
+    width: 4vw;
+    vertical-align: baseline;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    animation: imgSlideRight 1s ease,
+                fadeIn 1s ease;
+}
+
+.contactText{
+    position: relative;
+    font-size: 3vw;
+    margin-left: 1vw;
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    animation: textSlideRight 1s ease,
+                fadeIn 1s ease;
+}
+
+@keyframes imgSlideRight{
+    0% {margin-left: 2vw;}
+}
+
+@keyframes textSlideRight{
+    0% {margin-left: 3vw;}
+}
+
+@keyframes fadeIn{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}

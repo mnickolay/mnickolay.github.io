@@ -1,0 +1,75 @@
+.navCircle{
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    border: 2px solid #f0f0f0;
+    color: #f0f0f0;
+    background-color: transparent;
+    position: absolute;
+    transition: all 0.2s ease,
+                background-color 0.4s ease;
+    right: 20px;
+    bottom: 20px;
+}
+
+#navCircle1{
+    margin-bottom: 150px;
+}
+
+#navCircle2{
+    margin-bottom: 100px;
+}
+
+#navCircle3{
+    margin-bottom: 50px;
+
+}
+
+.navText{
+    position: absolute;
+    display: none;
+    right: 0vw;
+    font-family: "Raleway";
+}
+
+.navActive .navText{
+    display: inline;
+    line-height: 2rem;
+    padding-right: 10px;
+}
+
+/* hovering */
+
+.navCircle:hover{
+    width: 100px;
+}
+
+#navCircle1:hover{
+    background-color: #0000FF;
+}
+
+#navCircle2:hover{
+    background-color: #d1a212;
+}
+
+#navCircle3:hover{
+    background-color: #FFB6BD;
+}
+
+#navCircle4:hover{
+    background-color: #009659;
+}
+
+#navCircle1:hover #navHome,
+#navCircle2:hover #navResume,
+#navCircle3:hover #navAbout,
+#navCircle4:hover #navContact{
+    display: inline;
+    line-height: 2rem;
+    padding-right: 10px;
+}
+
+.navActive, .navActive:hover{
+    background-color: #f0f0f0 !important;
+    color: black !important;
+}

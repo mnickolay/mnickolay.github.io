@@ -1,0 +1,36 @@
+#mobileHomeImage{
+    width: 60vw;
+    height: auto;
+    position: fixed;
+    bottom: 6vh;
+    left: 20vw;
+    animation: fadeIn 1s ease;
+}
+
+.mobileNameDisplay{
+    margin: 10vh auto 0 auto;
+    line-height: 0.8;
+    font-size: 7vh;
+    width: fit-content;
+    font-weight: 200;
+    text-align: center;
+    animation: mobileNameDisplay 1s ease;
+}
+
+.mobileInfoDisplay{
+    margin: 5vh auto 0 auto;
+    font-size: 2.5vh;
+    width: fit-content;
+    text-align: center;
+    animation: mobileInfoDisplay 1s ease;
+}
+
+@keyframes mobileInfoDisplay{
+    0% {margin-top: 4vh; opacity: 0;}
+    100% {margin-top: 5vh; opacity: 1;}
+}
+
+@keyframes mobileNameDisplay{
+    0% {margin-top: 13vh; opacity: 0;}
+    100% {margin-top: 10vh; opacity: 1;}
+}

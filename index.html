@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" 
+          href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+          crossorigin="anonymous"/>
+          
+    <!-- styling -->
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/desktop/logo.css">
+    <link rel="stylesheet" href="styles/desktop/body.css">
+    <link rel="stylesheet" href="styles/desktop/nav.css">
+    <link rel="stylesheet" href="styles/desktop/circles.css">
+
+    <!-- mobile -->
+    <link rel="stylesheet" href="styles/mobile/navbar.css">
+    <link rel="stylesheet" href="styles/mobile/logo.css">
+    <link rel="stylesheet" href="styles/mobile/home.css">
+    <link rel="stylesheet" href="styles/mobile/resume.css">
+    <link rel="stylesheet" href="styles/mobile/about.css">
+    <link rel="stylesheet" href="styles/mobile/contact.css">
+
+    <!-- pages -->
+    <link rel="stylesheet" href="styles/desktop/pages/home.css">
+    <link rel="stylesheet" href="styles/desktop/pages/resume.css">
+    <link rel="stylesheet" href="styles/desktop/pages/about.css">
+    <link rel="stylesheet" href="styles/desktop/pages/contact.css">
+</head>
+<body>
+
+<div class="desktopDiv">
+    <div class="logoDiv">
+        <div class="logoParent">
+            <span class="logoCircle"></span>
+            <span class="logoMain">MN</span>
+            <i class='logoSmile far fa-smile fa-md'></i>
+            <span class="logoPage"></span>
+            <span class="logoInner"></span>
+        </div>
+    </div>
+
+    <div class="websiteBody">
+        <div class="bodyLeft">
+            <div class="leftHTML"></div>
+        </div>
+        <div id="rightColor"></div>
+        <div class="bodyRight">
+            <div class="rightHTML"></div>
+        </div>
+
+        <span class="navCircle navActive" id="navCircle1">
+            <span class="navText" id="navHome"></span>
+        </span>
+        <span class="navCircle" id="navCircle2">
+            <span class="navText" id="navResume"></span>
+        </span>
+        <span class="navCircle" id="navCircle3">
+            <span class="navText" id="navAbout"></span>
+        </span>
+        <span class="navCircle" id="navCircle4">
+            <span class="navText" id="navContact"></span>
+        </span>
+    </div>
+</div>
+
+<div class="mobileDiv">
+    <div class="mobileNav">
+        <div class="mobileColorBar">
+            <div class="mobileLogoParent">
+                <span class="mobileLogoMain">MN</span>
+            </div>
+
+            <span class="mobileNavCircle mobileNavActive" id="mobileNavCircle1"></span>
+            <span class="mobileNavCircle" id="mobileNavCircle2"></span>
+            <span class="mobileNavCircle" id="mobileNavCircle3"></span>
+            <span class="mobileNavCircle" id="mobileNavCircle4"></span>
+            <div class="mobileLogoPage"></div>
+            <div class="mobileLogoInner"></d>
+        </div>
+    </div>
+    <div class="mobileBody">
+        
+    </div>
+</div>
+
+<!-- general scripts -->
+<script src="scripts/var.js"></script>
+<script src="scripts/logo.js"></script>
+<script src="scripts/scroll.js"></script>
+<script src="scripts/navigation.js"></script>
+<script src="scripts/circles.js"></script>
+
+<!-- desktop html scripts -->
+<script src="scripts/html/desktop/homeHTML.js"></script>
+<script src="scripts/html/desktop/resumeHTML.js"></script>
+<script src="scripts/html/desktop/aboutHTML.js"></script>
+<script src="scripts/html/desktop/contactHTML.js"></script>
+
+<!-- mobile html scripts -->
+<script src="scripts/html/mobile/homeHTML.js"></script>
+<script src="scripts/html/mobile/resumeHTML.js"></script>
+<script src="scripts/html/mobile/aboutHTML.js"></script>
+<script src="scripts/html/mobile/contactHTML.js"></script>
+
+<!-- logic scripts -->
+<script src="scripts/logic/logicHome.js"></script>
+<script src="scripts/logic/logicResume.js"></script>
+<script src="scripts/logic/logicAbout.js"></script>
+<script src="scripts/logic/logicContact.js"></script>
+<script src="scripts/logic/logicMain.js"></script>
+
+<script src="scripts/start.js"></script>
+
+</body>
+</html>
