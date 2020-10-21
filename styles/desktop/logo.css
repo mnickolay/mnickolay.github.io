@@ -2,11 +2,10 @@
     position: absolute;
     left: 3vw;
     top: 3vw;
-    width: 30vw;
-    height: 12vw;
+    width: 5vw;
+    height: 5vw;
     text-decoration: none;
     text-align: center;
-    clip-path: circle(10% at 9% 22.5%);
     font-size: 1.7vw;
     font-family: 'Raleway';
     border-radius: 15px;
@@ -14,30 +13,31 @@
                 background-color 0.6s linear,
                 border-color 0.6s linear,
                 color 0.3s linear,
-                width 0.3s ease,
-                height 0.3s ease,
-                clip-path 0.5s;
-    color: black;
-    border: black 1px solid;
+                width 0.4s ease,
+                height 0.4s ease;
+    color: transparent;
+    border: transparent 1px solid;
     z-index: 2;
 }
 
 .logoParent:hover{
     text-decoration: none;
-    color: white;
-    
+    color: #f0f0f0 !important;
     z-index: 5;
-    clip-path: circle(100%);
     box-shadow: 0px 3px 9px rgba(0,0,0,0.2),
                 0px 3px 18px rgba(0,0,0,0.1);
 }
 
+.logoParent:hover > .logoInner > p{
+    color: #f0f0f0 !important;
+}
+
 .logoCircle{
     position: absolute;
-    left: 0.37vw;
-    top: 0.37vw;
-    width: 4.4vw;
-    height: 4.4vw;
+    left: 0;
+    top: 0;
+    width: 5vw;
+    height: 5vw;
     border-radius: 50px;
     border: 1px solid black;
     transition: all 0.5s ease;
@@ -48,6 +48,7 @@
     position: absolute;
     top: 1.6vw;
     left: 1.15vw;
+    color: black;
     transition: 0.3s opacity ease;
 }
 
@@ -70,7 +71,7 @@
 }
 
 .logoInner{
-    color: #f0f0f0;
+    color: transparent;
     position: absolute;
     top: 5vw;
     left: 0;
@@ -78,4 +79,8 @@
     text-decoration: none;
     text-align: left;
     font-size: 1vw;
+}
+
+.logoInner > p{
+    transition: color 0.6s ease;
 }

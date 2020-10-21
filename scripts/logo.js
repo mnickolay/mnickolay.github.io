@@ -2,6 +2,8 @@ var logoTimer;
 var logoBubble;
 var logoIntervalArr = [];
 
+logoTextObj.inner.style.display = "none"
+
 logoParent.addEventListener("mouseenter", () =>{
     logoIntervalArr.push(logoTimer = setInterval(() => {
         logoParent.style.backgroundColor = currentColor;
@@ -13,9 +15,11 @@ logoParent.addEventListener("mouseenter", () =>{
     }, 300))
     
     logoParent.style.borderColor = "#f0f0f0";
+    logoParent.style.width = "30vw";
     logoTextObj.smile.style.opacity = "1";
     logoTextObj.mn.style.opacity = "0";
     logoTextObj.circle.style.border = "1px solid transparent";
+    logoTextObj.inner.style.display = ""
 })
 
 logoParent.addEventListener("mouseleave", () =>{
@@ -25,10 +29,13 @@ logoParent.addEventListener("mouseleave", () =>{
     })
     logoParent.style.backgroundColor = "transparent";
     logoParent.style.borderColor = "transparent";
-    logoParent.style.height = "12vw";
+    logoParent.style.height = "5vw";
+    logoParent.style.width = "5vw";
+    logoParent.style.borderRadius = "50px";
     logoTextObj.smile.style.opacity = "0";
     logoTextObj.mn.style.opacity = "1";
     logoTextObj.circle.style.border = "1px solid black";
+    logoTextObj.inner.style.display = "none"
 })
 
 // mobile
