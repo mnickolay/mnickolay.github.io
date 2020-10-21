@@ -1,7 +1,7 @@
 #mobileResumeHeader{
     width: fit-content;
     margin: 6vh auto 1vh auto;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 #mobileSkills, #mobileEducation, #mobileWork{
@@ -10,14 +10,14 @@
 }
 
 .mobileResHeader{
-    margin: 2vh auto 0 auto;
-    font-size: 18px;
+    margin: 1vh auto 0 auto;
+    font-size: 16px;
 }
 
 .mobileResH5{
-    font-size: 14px;
+    font-size: 12px;
     width: fit-content;
-    margin: 1vh auto 0 5vw;
+    margin: 0.5vh auto 0 5vw;
 }
 
 .mobileResumeDiv{
