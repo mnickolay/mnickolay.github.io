@@ -292,7 +292,7 @@ function setResumeVariables(){
             date: '05/2018 - 08/2018',
             title: 'Pre-Apprentice',
             arr: [
-                'The job mainly consisted of full time condenser coil cleaning with a permenent teammeate.',
+                'The job mainly consisted of full time condenser coil cleaning with a permanent teammeate.',
                 'Given a company truck to arrive at specfied job sites to perform job and communicate with on-site employees.'
             ]
         },
