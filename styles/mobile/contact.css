@@ -6,7 +6,7 @@
 
 #mobileContactTop{
     width: 100%;
-    height: 50vh;
+    height: 40vh;
 }
 
 #mobileContactHead{
@@ -29,22 +29,13 @@
     width: fit-content;
     font-size: 18px;
     text-align: center;
+    opacity: 0;
+    transition: all 0.5s ease;
 }
 
 #mobileBlinkBar{
     position: relative;
     font-size: 40px;
-}
-
-.mobileTextHide{
-    position: absolute;
-    top: 33.5vh;
-    right: 10vw;
-    width: 80vw;
-    height: 4vh;
-    text-align: center;
-    background-color: #f0f0f0;
-    transition: all 1s ease;
 }
 
 .mobileActiveContact{
@@ -53,7 +44,7 @@
 }
 
 #mobileContactBottom{
-    margin: 4vh auto auto auto;
+    margin: 0 auto auto auto;
     width: 100%;
 }
 

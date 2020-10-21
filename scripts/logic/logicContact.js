@@ -166,9 +166,7 @@ function textShowAnimation(width){
     textHide1.style.left = (width+10.25) + "vw";
     textHide2.style.left = (width+10.25) + "vw"
     textHide2.style.width = "0vw"
-
-    mobileTextHide.style.width = "0vw"
-    mobileTextHide.style.borderLeft = "1px solid black"
+    mobileInputFieldDetail.style.opacity = "1"
 }
 
 function textHideAnimation(){
@@ -176,8 +174,7 @@ function textHideAnimation(){
     textHide1.style.left = "10vw"
     textHide2.style.left = "10vw"
     textHide2.style.width = "42vw"
-
-    mobileTextHide.style.width = "80vw"
+    mobileInputFieldDetail.style.opacity = "0"
 }
 
 function checkForActive(){
