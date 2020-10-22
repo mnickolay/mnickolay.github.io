@@ -3,6 +3,7 @@ var html = document.querySelector("html");
 var desktop = document.querySelector(".desktopDiv");
 var mobile = document.querySelector(".mobileDiv");
 var width = window.innerWidth;
+var height = window.innerHeight;
 
 //mobile
 var mobileNav = document.querySelector(".mobileNav");

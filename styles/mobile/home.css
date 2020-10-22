@@ -1,9 +1,13 @@
 #mobileHomeImage{
-    width: 60vw;
-    height: auto;
+    width: auto;
+    height: 40vh;
     position: fixed;
     bottom: 6vh;
-    left: 20vw;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
     animation: fadeIn 1s ease;
 }
 

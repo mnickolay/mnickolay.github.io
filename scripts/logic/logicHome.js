@@ -2,9 +2,9 @@
 function homeLogic(){
     bodyL.innerHTML = homeLeft;
     rightHTML.innerHTML = homeRight;
-    colorBar.style.transform = "skew(-20deg)"
+    colorBar.style.transform = setColorBarSkew()
     logoTextObj.inner.innerHTML = logoTextObj.home
-    logoTextObj.page.innerText = "Home";
+    logoTextObj.page.innerText = "Home"
 
     mobileBody.innerHTML = mobileHomeHTML
     mobileLogoPage.innerText = "Home"

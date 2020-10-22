@@ -24,6 +24,16 @@ function mobileResumeLogic(){
     mobileLogoInner.innerHTML = mobileLogoTextObj.resume
 }
 
+function setResumePage(){
+    resPageSet = true
+    leftHTML.innerHTML = resumeLeft
+    rightHTML.innerHTML = resumeRight
+    colorBar.style.transform = setColorBarSkew()
+    logoTextObj.inner.innerHTML = logoTextObj.resume
+    logoTextObj.page.innerText = "Resume"
+    mobileBody.innerHTML = mobileResumeBody
+}
+
 function mobileFindPreviousResumeObj(){
     if(mobileCurrentResumeDisplay.num != 0){
         Object.keys(resumeObj).forEach((childObj) => {
@@ -163,16 +173,6 @@ function objSettingTableFillDate(obj){
     return thisTableFill
 }
 
-function setResumePage(){
-    resPageSet = true
-    leftHTML.innerHTML = resumeLeft
-    rightHTML.innerHTML = resumeRight
-    colorBar.style.transform = "skew(-7deg)"
-    logoTextObj.inner.innerHTML = logoTextObj.resume
-    logoTextObj.page.innerText = "Resume"
-    mobileBody.innerHTML = mobileResumeBody
-}
-
 function setMobileResumeVar(){
     mobileResumeInfoDisplay = document.querySelector(".mobileResumeInfoDisplay");
     mobileDisplayFill = document.querySelector(".mobileDisplayFill");
@@ -305,7 +305,7 @@ function setResumeVariables(){
             arr: [
                 'Was the person who was responsible with getting all food out to tables in correct table positions.',
                 'Fast paced environment required you to always be looking for work to do and help in any way possible.',
-                'Cleaned tables and reset when customers left, and washed dishes when noone was available to do so.'
+                'Cleaned tables and reset when customers left, and washed dishes when no one was available to do so.'
             ]
         }
     }

@@ -38,9 +38,9 @@ function contactLogic(){
 function setContactPageStart(){
     leftHTML.innerHTML = contactLeft;
     rightHTML.innerHTML = contactRight;
-    colorBar.style.transform = "skew(9deg)";
-    logoTextObj.inner.innerHTML = logoTextObj.contact;
-    logoTextObj.page.innerText = "Contact";
+    colorBar.style.transform = setColorBarSkew()
+    logoTextObj.inner.innerHTML = logoTextObj.contact
+    logoTextObj.page.innerText = "Contact"
 
     mobileBody.innerHTML = mobileContactRight
     mobileLogoPage.innerText = "Contact"

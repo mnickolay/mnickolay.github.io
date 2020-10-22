@@ -34,7 +34,7 @@ html, body{
 }
 
 #rightColor{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     min-height: max-content;
     height: 100vh;
